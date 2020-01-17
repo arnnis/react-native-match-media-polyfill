@@ -30,7 +30,7 @@ class MediaQuery {
 
   _notifyListeners() {
     this._listeners.forEach(listener => {
-      (listener as any)(this)
+      (listener as Listener)(this)
     })
   }
 
@@ -38,11 +38,11 @@ class MediaQuery {
     Dimensions.removeEventListener('change', this._handleDimensionsChange)
   }
 
-  addListener(listener: any) {
+  addListener(listener: Listener) {
     this._listeners.push(listener)
   }
 
-  removeListener(listener: any) {
+  removeListener(listener: Listener) {
     const index = this._listeners.indexOf(listener)
     if (index === -1) return
     this._listeners.splice(index)
