@@ -10,6 +10,22 @@
   "author": "Alireza Rezania",
   "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnnis/react-native-match-media-polyfill.git"
+  },
+  "keywords": [
+    "react-native-component",
+    "react-component",
+    "react-native",
+    "ios",
+    "media",
+    "query",
+    "responsive",
+    "matchMedia",
+    "mediaquery",
+    "react-native-web"
+  ],
   "scripts": {
     "prepare": "bob build"
   },
