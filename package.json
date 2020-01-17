@@ -1,6 +1,6 @@
 {
   "name": "react-native-match-media-polyfill",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "window.matchMedia() polyfill for React Native",
   "main": "build/commonjs/index.js",
   "types": "build/typescript/index.d.ts",
@@ -24,7 +24,8 @@
     "responsive",
     "matchMedia",
     "mediaquery",
-    "react-native-web"
+    "react-native-web",
+    "react-responsive"
   ],
   "scripts": {
     "prepare": "bob build"
