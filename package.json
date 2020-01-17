@@ -1,0 +1,40 @@
+{
+  "name": "react-native-match-media-polyfill",
+  "version": "1.0.1",
+  "description": "window.matchMedia() polyfill for React Native",
+  "main": "build/commonjs/index.js",
+  "types": "build/typescript/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "author": "Alireza Rezania",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "prepare": "bob build"
+  },
+  "dependencies": {
+    "css-mediaquery": "^0.1.2"
+  },
+  "devDependencies": {
+    "@react-native-community/bob": "^0.8.0",
+    "@types/react-native": "^0.60.30",
+    "typescript": "^3.7.4"
+  },
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "@react-native-community/bob": {
+    "source": "src",
+    "output": "build",
+    "targets": [
+      [
+        "commonjs",
+        {
+          "flow": true
+        }
+      ],
+      "typescript"
+    ]
+  }
+}
