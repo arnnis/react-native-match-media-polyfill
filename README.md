@@ -20,6 +20,7 @@ import 'react-native-match-media-polyfill'
 
 with react-responsive:
 ```js
+import 'react-native-match-media-polyfill'
 import {useMediaQuery} from 'react-responsive'
 
 const App = () => {
