@@ -34,7 +34,7 @@ const App = () => {
 
   )
 }
-``
+```
 
 And we're done 🎉
 
