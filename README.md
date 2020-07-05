@@ -18,6 +18,24 @@ import 'react-native-match-media-polyfill'
 // use the match media API
 ```
 
+with react-responsive:
+```js
+import {useMediaQuery} from 'react-responsive'
+
+const App = () => {
+  const isLandscape = useMediaQuery({orientation: 'landscape'})
+  const isBigScreen = useMediaQuery({ query: '(min-device-width: 1824px)' })
+
+  return (
+     <>
+       <Text>{isLandscape? 'Landscape' : 'Portrait'}<Text>
+       <Text>{isBigScreen? 'Big screen' : 'Small screen'}<Text>
+     </>
+
+  )
+}
+``
+
 And we're done 🎉
 
 ## LICENSE
