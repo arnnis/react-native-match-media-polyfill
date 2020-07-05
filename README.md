@@ -22,4 +22,4 @@ And we're done 🎉
 
 ## LICENSE
 
-MIT
+MIT, fork of @expo/match-media and tuckerconnelly/react-native-match-media
