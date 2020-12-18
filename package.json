@@ -34,7 +34,7 @@
     "css-mediaquery": "^0.1.2"
   },
   "devDependencies": {
-    "@react-native-community/bob": "^0.8.0",
+    "@react-native-community/bob": "^0.17.1",
     "@types/react-native": "^0.63.37",
     "typescript": "^3.7.4"
   },
