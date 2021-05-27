@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@react-native-community/bob": "^0.8.0",
-    "@types/react-native": "^0.63.37",
+    "@types/react-native": "^0.64.7",
     "typescript": "^3.7.4"
   },
   "peerDependencies": {
